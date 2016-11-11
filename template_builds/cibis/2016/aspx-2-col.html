@@ -1,0 +1,18 @@
+<cms:region type="FileInclude" value="template_includes\cibis\2016\header.html" />
+
+<section class="page-content">
+    <div class="col-1">
+        <cms:region type="Menu" name="ContextListMenu" />
+    </div>
+
+    <div class="col-2">
+		<cms:region type="BreadCrumb" format="XpectDemo" />
+        <h1><cms:title /></h1>
+        <cms:region type="HTML" name="Header" />
+        <cms:region type="CustomPage" name="Page" />
+        <cms:region type="ASPControl" url="Xpect/Controls/PanelCallToAction.asp" pass="1" />
+        <cms:region type="HTML" name="Footer" />     
+    </div>
+</section>
+
+<cms:region type="FileInclude" value="template_includes\cibis\2016\footer.html" />

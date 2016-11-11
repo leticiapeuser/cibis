@@ -1,0 +1,33 @@
+<cms:region type="FileInclude" value="template_includes\cibis\2016\header.html" />
+
+<section class="page-content">
+    <h1><cms:title /></h1>
+    <cms:region type="HTML" name="Content" />
+</section>
+
+<div class='strip-heading-content'>
+    <div class="wrapper">
+        BUSINESS Solutions
+    </div>
+</div>
+<cms:region type="HTML" name="BusinessSolutionsBoxes" Description="Note: You will need to use HTML source editing to change these" />
+
+
+<div class='strip-heading-content'>
+    <div class="wrapper">
+        Solutions for EDUCATION
+    </div>
+</div>
+<cms:region type="HTML" name="EducationBoxes" Description="Note: You will need to use HTML source editing to change these" />
+<div class='strip-heading-calltoaction'>
+    <cms:region type="ASPControl" url="Xpect/Controls/PanelCallToAction.asp" pass="1" />
+</div>
+    <div class='strip-heading-content'>
+        <div class="wrapper">
+            Check out how we help business.
+        </div>
+    </div>
+
+    <cms:region type="FileInclude" value="template_includes\cibis\2016\clients.html" />
+
+    <cms:region type="FileInclude" value="template_includes\cibis\2016\footer.html" />

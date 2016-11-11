@@ -1,0 +1,22 @@
+<cms:region type="FileInclude" value="template_includes\cibis\2016\header.html" />
+
+<section class="page-content">
+    <cms:region type="BreadCrumb" format="XpectDemo" />
+    <h1><cms:title /></h1>
+    <div class="features-left-col">
+	<h2><cms:region type="TextBox" name="SubTitle" required="false"/></h2>
+    <cms:region type="HTML" name="Content" />
+    <cms:region type="ASPControl" url="Xpect/Controls/PanelCallToAction.asp" pass="1" />
+    </div>
+    <div class="features-right-col">
+    <cms:region type="HTML" name="Features" />
+    </div>
+</section>
+<div class='strip-heading-2'>
+    <div class="wrapper">
+        Check out how we help business.
+    </div>
+</div>
+<cms:region type="FileInclude" value="template_includes\cibis\2016\clients.html" />
+
+<cms:region type="FileInclude" value="template_includes\cibis\2016\footer.html" />

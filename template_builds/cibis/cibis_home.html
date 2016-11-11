@@ -1,0 +1,42 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>[[MetaTitle]] | CIBIS</title>
+    <meta name="description" content="[[metadescription]]"/>
+    <cms:region type="FileInclude" value="template_includes\cibis\global\cibis_head.html" />
+</head>
+
+<body id="home" class="grid_system_978 xshow_grid <cms:region type="FriendlyUrlPart" parameters="1"/>" name="page_top">
+    <cms:region type="PageInfo" />    
+    <cms:region type="FileInclude" value="template_includes\cibis\global\cibis_upgrade_your_browser.html" />
+
+    <div id="skip_to" class="visuallyhidden">
+        <ul>
+            <li><a href="#introduction">Skip to Content</a></li>
+            <li><a href="#nav_main">Skip to Navigation</a></li>
+        </ul>
+    </div>
+    <!-- / #skip_to -->
+    
+    <cms:region type="FileInclude" value="template_includes\cibis\global\cibis_member_portal_login.html" />
+
+    <div id="site">
+        <div class="wrap_grid">           
+            <cms:region type="FileInclude" value="template_includes\cibis\global\cibis_header_home.html" />
+            <cms:region type="FileInclude" value="template_includes\cibis\global\cibis_nav_main.html" />
+            <cms:region type="FileInclude" value="template_includes\cibis\home\cibis_rotator.html" />
+            <cms:region type="FileInclude" value="template_includes\cibis\home\cibis_introduction_and_services.html" />
+            <cms:region type="FileInclude" value="template_includes\cibis\home\cibis_clients.html" />
+            <cms:region type="FileInclude" value="template_includes\cibis\home\cibis_news_and_tweets.html" />
+        </div>
+        <!-- / .wrap_grid -->  
+    </div>
+    <!-- / #site -->
+    
+    <cms:region type="FileInclude" value="template_includes\cibis\global\cibis_footer.html" />          
+    <cms:region type="FileInclude" value="template_includes\cibis\global\cibis_foot.html" />
+</body>
+</html>

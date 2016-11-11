@@ -1,0 +1,47 @@
+<cms:region type="FileInclude" value="template_includes\cibis\2016\header.html" />
+
+<section class="page-content project-page">
+
+    <div class="client-header"><cms:region type="BreadCrumb" format="XpectDemo" />
+        <h1 class='orange-title'><cms:title /></h1>
+        <cms:region type="HTML" name="Content" />
+        <cms:region type="ASPControl" url="Xpect/Controls/PanelCallToAction.asp" pass="1" />
+    </div>
+</section>
+
+<ul class='homepage-call-to-actions wrapper'>
+    <li class='call-to-action'>
+        <a href='/software'>
+            <div class='dark-blue coloured'>
+                <h3>CIBIS Software</h3>
+                <div class='icon icon-computer'></div>
+            </div>
+        </a>
+    </li>
+    <li class='call-to-action'>
+        <a href='/services/newcastle-hosting-and-cloud-computing'>
+            <div class='logo-blue coloured'>
+                <h3>CIBIS Secure Cloud</h3>
+                <div class='icon icon-cloud'></div>
+            </div>
+        </a>
+    </li>
+    <li class='call-to-action'>
+        <a href='/solutions'>
+            <div class='dark-blue coloured'>
+                <h3>CIBIS Solutions</h3>
+                <div class="icon icon-download"></div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+      <div class='strip-heading-content'>
+            <div class="wrapper">
+                Check out how we help business.
+            </div>
+        </div>
+
+ <cms:region type="FileInclude" value="template_includes\cibis\2016\clients.html" />
+
+<cms:region type="FileInclude" value="template_includes\cibis\2016\footer.html" />
