@@ -4802,10 +4802,13 @@ a.button, input.button {
         display: -webkit-flex;
         display: flex;
         margin-top:10px;
-        @media screen and (max-width: $tablet-screen) {
+        @media screen and (max-width: $mobile-screen) {
             display:block;
 
             width:100%;
+        }
+        @media screen and (max-width: $tablet-screen) {
+            flex-wrap: wrap;
         }
         h1{
             @include text(white,40px);
@@ -4908,7 +4911,14 @@ a.button, input.button {
             }
         }
         @media screen and (max-width: $tablet-screen) {
-            width:100%;
+            min-width:50%;
+            max-width: 50%;
+            
+            margin:20px 20px 20px 0;
+        }
+        @media screen and (max-width: $mobile-screen) {
+            min-width:100%;
+            max-width: 100%;
             -webkit-flex: none;
             flex: none;
             margin:20px 0;
@@ -4920,15 +4930,33 @@ a.button, input.button {
             height:325px;
             width:100%;
             text-align:center;
+            @media screen and (max-width: $tablet-screen) {
+                height:auto;
+                padding:20px;
+                img{
+                    width:75px;
+                }
+            }
             
             .content{
                 height:190px;
                 position:relative;
+                 @media screen and (max-width: $tablet-screen) {
+                    height:auto;
+                }
                 p{
                     @include text(white,30px);
                     @include vertical-align;
                     text-align: center;
                     width:100%;
+                    @media screen and (max-width: $tablet-screen) {
+                        font-size: 24px;
+                        position:relative;
+                        top: 0;
+                      -webkit-transform: translateY(0);
+                      -ms-transform: translateY(0);
+                      transform: translateY(0);
+                    }
                 }
             }
             &.bg-blue{
@@ -4943,6 +4971,10 @@ a.button, input.button {
         width:475px;
         -webkit-flex: none;
         flex: none;
+         @media screen and (max-width: $tablet-screen) {
+            width:100%;
+            
+        }
     }
     .flex-text{
         -webkit-flex: initial;
@@ -4951,6 +4983,12 @@ a.button, input.button {
         p{
             text-align:left;
             @include text($brand-grey,24px);
+        }
+         @media screen and (max-width: $tablet-screen) {
+            width:100%;
+            -webkit-flex: none;
+            flex: none;
+            margin:20px 0;
         }
     }
     
