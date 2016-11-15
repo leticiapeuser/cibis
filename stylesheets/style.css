@@ -3608,9 +3608,11 @@ small {
     /*text-align: right;*/ }
     .header .header-button-items a {
       color: #1d2e59;
-      padding: 0px 10px; }
+      padding: 0px 10px;
+      transition: all .5s; }
     .header .header-button-items a:hover {
-      color: #ff7c00; }
+      color: #ff7c00;
+      transition: all .5s; }
   .header .phone {
     float: right;
     width: 45px;
@@ -3628,8 +3630,10 @@ small {
     font-size: 25px;
     text-decoration: none;
     margin-top: 10px;
-    margin-right: 20px; }
+    margin-right: 20px;
+    transition: all .5s; }
     .header .phone-text:hover {
+      transition: all .5s;
       text-decoration: underline; }
   .header .search {
     float: right;
@@ -4865,15 +4869,19 @@ html#wrap_popup_add_item {
   background: white !important;
   color: black;
   pointer-events: none;
-  cursor: default; }
+  cursor: default;
+  transition: all .5s; }
 
 #nav_crumb ul li:last-child a:after {
+  transition: all .5s;
   border: 0; }
 
 #nav_crumb ul li a:hover {
+  transition: all .5s;
   background: #006680; }
 
 #nav_crumb ul li a:hover:after {
+  transition: all .5s;
   border-left-color: #006680 !important; }
 
 #nav_crumb li.last.current {
@@ -5046,7 +5054,8 @@ html#wrap_popup_add_item {
   .homepage-call-to-actions .coloured {
     padding-bottom: 40px; }
   .homepage-call-to-actions a {
-    text-decoration: none; }
+    text-decoration: none;
+    transition: all .5s; }
     .homepage-call-to-actions a h3 {
       color: #fff;
       font-family: "museo",serif;
@@ -5065,10 +5074,12 @@ html#wrap_popup_add_item {
       color: #00a6cf;
       margin-top: 10px;
       padding-left: 20px; }
-    .homepage-call-to-actions a:hover .coloured {
-      background-color: #FF7C00; }
-    .homepage-call-to-actions a:hover .more-link {
-      color: #FF7C00; }
+    .homepage-call-to-actions a:hover {
+      transition: all .5s; }
+      .homepage-call-to-actions a:hover .coloured {
+        background-color: #FF7C00; }
+      .homepage-call-to-actions a:hover .more-link {
+        color: #FF7C00; }
 
 @media screen and (max-width: 972px) {
   .homepage-call-to-actions {
@@ -5208,17 +5219,21 @@ ul.projects {
     width: 33.33%;
     float: left;
     margin-bottom: 0px !important;
-    background-color: #8cebff; }
+    background-color: #8cebff;
+    transition: all .5s; }
     ul.projects .project:nth-child(even) {
-      background-color: #00a6cf; }
+      background-color: #00a6cf;
+      transition: all .5s; }
     ul.projects .project:hover {
-      background-color: #FF7C00; }
+      background-color: #FF7C00;
+      transition: all .5s; }
     ul.projects .project a {
       text-decoration: none;
       text-align: center;
       display: block;
       padding-left: 20px;
-      padding-right: 20px; }
+      padding-right: 20px;
+      transition: all .5s; }
       ul.projects .project a h3 {
         color: #666;
         font-size: 20px;
@@ -5262,11 +5277,13 @@ ul.projects4 {
     float: left;
     margin-bottom: 0px !important;
     min-height: 145px;
-    background-color: #8cebff; }
+    background-color: #8cebff;
+    transition: all .5s; }
     ul.projects4 .project4:nth-child(even) {
       background-color: #00a6cf; }
     ul.projects4 .project4:hover {
-      background-color: #FF7C00; }
+      background-color: #FF7C00;
+      transition: all .5s; }
     ul.projects4 .project4 a {
       text-decoration: none;
       text-align: center;
@@ -5335,9 +5352,11 @@ ul.projects4 {
         display: block;
         text-decoration: none;
         padding: 13px 15px;
-        border-bottom: 1px solid #00203d; }
+        border-bottom: 1px solid #00203d;
+        transition: all .5s; }
         .page-content .col-1 ul li a:hover {
-          background-color: #FF7C00; }
+          background-color: #FF7C00;
+          transition: all .5s; }
   .page-content .col-2 {
     width: 80%;
     float: left;
@@ -5653,10 +5672,12 @@ ul.method-bubbles {
   text-transform: capitalize;
   cursor: pointer;
   font-size: 18px;
-  margin-top: 15px; }
+  margin-top: 15px;
+  transition: all .5s; }
   .page-content button:hover,
   .page-content input[type='submit']:hover {
-    background-color: #ff7c00; }
+    background-color: #ff7c00;
+    transition: all .5s; }
 
 #containerIntro h1,
 #containerIntro p {
@@ -5732,9 +5753,11 @@ ul.method-bubbles {
       font-size: 24px;
       text-transform: capitalize;
       color: #fff;
-      display: block; }
+      display: block;
+      transition: all .5s; }
       .accordion h2 a:hover {
-        background-color: #0056a3; }
+        background-color: #0056a3;
+        transition: all .5s; }
 
 @media screen and (max-width: 400px) {
   .page-content #input_text_ccvNo, .page-content #select_paymentMethodIndex, .page-content #input_text_cardName {
@@ -5895,9 +5918,11 @@ tr:nth-child(odd) {
     color: #ccc;
     border-top: 1px dashed #ccc; }
     #nav_cart ul li a {
-      text-decoration: none; }
+      text-decoration: none;
+      transition: all .5s; }
       #nav_cart ul li a:hover {
-        color: #FF7C00; }
+        color: #FF7C00;
+        transition: all .5s; }
     #nav_cart ul li.current {
       color: #FF7C00; }
 
@@ -6063,13 +6088,16 @@ ul.point-blocks {
     background-color: #00a6cf; }
     ul.point-blocks li a {
       color: #fff;
-      text-decoration: none; }
+      text-decoration: none;
+      transition: all .5s; }
     ul.point-blocks li:nth-child(3n+3), ul.point-blocks li:nth-child(5n+3), ul.point-blocks li:first-child {
       background-color: #1d2e59; }
-    ul.point-blocks li:hover .message {
-      display: none; }
-    ul.point-blocks li:hover .hidden-message {
-      display: block; }
+    ul.point-blocks li:hover {
+      transition: all .5s; }
+      ul.point-blocks li:hover .message {
+        display: none; }
+      ul.point-blocks li:hover .hidden-message {
+        display: block; }
 
 @media screen and (max-width: 995px) {
   ul.point-blocks li {
@@ -6083,13 +6111,17 @@ ul.point-blocks {
       width: 100%;
       padding: 20px;
       height: auto;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      transition: all .5s; }
       ul.point-blocks li:nth-child(even) {
-        background-color: #00a6cf; }
+        background-color: #00a6cf;
+        transition: all .5s; }
       ul.point-blocks li:nth-child(odd) {
-        background-color: #1d2e59; }
+        background-color: #1d2e59;
+        transition: all .5s; }
       ul.point-blocks li:hover {
-        background-color: #FF7C00; }
+        background-color: #FF7C00;
+        transition: all .5s; }
         ul.point-blocks li:hover .message {
           display: block; }
         ul.point-blocks li:hover .hidden-message {
@@ -6141,25 +6173,32 @@ ul.point-blocks {
     .project-page .col-2 .projects .project {
       width: 50%;
       padding-left: 25px;
-      padding-right: 25px; }
+      padding-right: 25px;
+      transition: all .5s; }
       .project-page .col-2 .projects .project h3 {
         display: block;
         min-height: 64px; }
       .project-page .col-2 .projects .project:nth-child(3) {
-        clear: left; }
+        clear: left;
+        transition: all .5s; }
       .project-page .col-2 .projects .project:nth-child(1) {
-        background-color: #003b70; }
+        background-color: #003b70;
+        transition: all .5s; }
         .project-page .col-2 .projects .project:nth-child(1) h3 {
           color: #fff; }
       .project-page .col-2 .projects .project:nth-child(2) {
-        background-color: #8cebff; }
+        background-color: #8cebff;
+        transition: all .5s; }
       .project-page .col-2 .projects .project:nth-child(3) {
-        background-color: #00aeef; }
+        background-color: #00aeef;
+        transition: all .5s; }
       .project-page .col-2 .projects .project:nth-child(4) {
-        background-color: #00a6cf; }
+        background-color: #00a6cf;
+        transition: all .5s; }
       .project-page .col-2 .projects .project:hover {
         background-color: #FF7C00 !important;
-        color: #000 !important; }
+        color: #000 !important;
+        transition: all .5s; }
       .project-page .col-2 .projects .project img {
         max-width: 100%; }
       .project-page .col-2 .projects .project h3 {
@@ -6193,16 +6232,19 @@ ul.point-blocks {
     padding-right: 15px; } }
 .say-hello {
   width: 100%;
-  background-color: #8cebff; }
+  background-color: #8cebff;
+  transition: all .5s; }
   .say-hello:hover {
-    background-color: #FF7C00; }
+    background-color: #FF7C00;
+    transition: all .5s; }
   .say-hello a {
     text-decoration: none;
     text-align: center;
     display: block;
     padding-top: 15px;
     padding-left: 20px;
-    padding-right: 20px; }
+    padding-right: 20px;
+    transition: all .5s; }
     .say-hello a h3 {
       color: #000;
       font-size: 27px;
@@ -6261,19 +6303,24 @@ ul.point-blocks {
     width: 50%;
     padding: 20px;
     min-height: 320px;
-    margin-bottom: 35px; }
+    margin-bottom: 35px;
+    transition: all .5s; }
     #newsarticles_default .news_item img {
       display: none; }
     #newsarticles_default .news_item a {
       color: #000;
-      text-decoration: none; }
+      text-decoration: none;
+      transition: all .5s; }
       #newsarticles_default .news_item a:hover {
-        color: #fff; }
+        color: #fff;
+        transition: all .5s; }
     #newsarticles_default .news_item:hover {
       background-color: #FF7C00;
-      color: #fff; }
+      color: #fff;
+      transition: all .5s; }
       #newsarticles_default .news_item:hover a {
-        color: #fff; }
+        color: #fff;
+        transition: all .5s; }
     #newsarticles_default .news_item:nth-child(odd) {
       clear: left; }
   #newsarticles_default .note {
@@ -6358,9 +6405,11 @@ ul.point-blocks {
     background-position: bottom right;*/ }
     .loggedin .last a {
       background: none;
-      color: black; }
+      color: black;
+      transition: all .5s; }
     .loggedin .last a:hover {
       background: none;
+      transition: all .5s;
       color: #FF7C00; }
     .loggedin .last a:before {
       font-family: FontAwesome;
@@ -6369,17 +6418,21 @@ ul.point-blocks {
       padding-right: 7px;
       padding-bottom: 3px;
       vertical-align: middle;
-      width: 15px; }
+      width: 15px;
+      transition: all .5s; }
     .loggedin .last a:hover:before {
-      content: "\f08b"; }
+      content: "\f08b";
+      transition: all .5s; }
   .loggedin .first {
     clear: both;
     padding: 25px 10px 0px 0px; }
 
 .header-button-items a {
-  color: #1d2e59; }
+  color: #1d2e59;
+  transition: all .5s; }
 .header-button-items a:hover {
-  color: #FF7C00; }
+  color: #FF7C00;
+  transition: all .5s; }
 .header-button-items ul {
   display: none; }
 
@@ -6391,11 +6444,16 @@ ul.point-blocks {
     display: inline-block;
     height: auto;
     width: 12px;
-    background: none; }
+    background: none;
+    transition: all .5s; }
+  .loggedin .last a.button:hover:before {
+    transition: all .5s; }
 
   .header-button-items a {
-    color: #1d2e59; }
+    color: #1d2e59;
+    transition: all .5s; }
   .header-button-items a:hover {
+    transition: all .5s;
     color: #FF7C00; }
   .header-button-items ul {
     display: none; } }
@@ -6421,6 +6479,7 @@ ul.point-blocks {
     padding: 25px;
     /*min-height: 550px;*/
     display: table-cell;
+    transition: all .5s;
     text-align: center;
     background-color: #00a6cf; }
     .page-content .stock li:nth-child(3n+4) {
@@ -6428,6 +6487,7 @@ ul.point-blocks {
     .page-content .stock li:nth-child(odd) {
       background-color: #1d2e59; }
     .page-content .stock li:hover {
+      transition: all .5s;
       background-color: #ff7c00; }
     .page-content .stock li a {
       text-decoration: none;
@@ -6519,11 +6579,15 @@ a.button, input.button {
   font-family: "museo",serif;
   -webkit-appearance: none;
   /*Safari/Chrome*/
-  -webkit-border-radius: 0; }
+  -webkit-border-radius: 0;
+  transition: all .5s; }
   a.button:hover, input.button:hover {
-    background-color: #ff7c00; }
+    background-color: #ff7c00;
+    transition: all .5s; }
   a.button.logincontinue, input.button.logincontinue {
     max-width: 300px; }
+  a.button.light, input.button.light {
+    background-color: #00a6cf; }
 
 #cart_footer {
   display: block;
@@ -6591,8 +6655,10 @@ a.button, input.button {
     font-size: 18px;
     min-height: 350px;
     border-bottom: 10px solid #fff;
-    border-top: 2px solid #fff; }
+    border-top: 2px solid #fff;
+    transition: all .5s; }
     .page-content .jcarousel li:hover {
+      transition: all .5s;
       border-bottom: 10px solid #56a6ce;
       border-top: 2px solid #56a6ce;
       background: #edfaff;
@@ -6600,9 +6666,11 @@ a.button, input.button {
       .page-content .jcarousel li:hover .img_sm {
         background: white; }
     .page-content .jcarousel li .img_sm:hover {
+      transition: all .5s;
       background: white; }
     .page-content .jcarousel li a {
-      text-decoration: none; }
+      text-decoration: none;
+      transition: all .5s; }
     .page-content .jcarousel li img {
       width: 100%;
       max-width: 150px;
@@ -6747,9 +6815,9 @@ a.button, input.button {
   font-family: "museo",serif;
   font-weight: 700;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1.2em;
-  padding: 10px 20px;
+  padding: 20px;
   box-sizing: border-box;
   display: block;
   margin-top: 30px; }
@@ -6757,6 +6825,8 @@ a.button, input.button {
   display: -webkit-flex;
   display: flex;
   margin-top: 10px; }
+  .home-content .flex-content.centered {
+    align-items: center; }
   @media screen and (max-width: 600px) {
     .home-content .flex-content {
       display: block;
@@ -6772,9 +6842,9 @@ a.button, input.button {
     line-height: 1.2em;
     padding: 20px 0;
     display: block; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1100px) {
       .home-content .flex-content h1 {
-        font-size: 30px; } }
+        font-size: 33px; } }
 .home-content .flex-content-input {
   display: -webkit-flex;
   display: flex; }
@@ -6782,17 +6852,24 @@ a.button, input.button {
   -webkit-flex: initial;
   flex: initial;
   background: #1D2E59;
-  padding: 30px;
-  box-sizing: border-box; }
+  padding: 40px;
+  box-sizing: border-box;
+  transition: all .5s; }
   .home-content .flex-blue p {
     font-family: "museo",serif;
     font-weight: 300;
     color: white;
     font-size: 27px;
     line-height: 1.2em; }
+    @media screen and (max-width: 1100px) {
+      .home-content .flex-blue p {
+        font-size: 23px; } }
     @media screen and (max-width: 900px) {
       .home-content .flex-blue p {
-        font-size: 18px; } }
+        font-size: 20px; } }
+  @media screen and (max-width: 900px) {
+    .home-content .flex-blue h1 {
+      padding: 0; } }
   @media screen and (max-width: 900px) {
     .home-content .flex-blue {
       width: 100%;
@@ -6803,23 +6880,29 @@ a.button, input.button {
   -webkit-flex: none;
   flex: none;
   background: #00a6cf;
-  padding: 30px;
-  box-sizing: border-box; }
+  padding: 40px;
+  box-sizing: border-box;
+  transition: all .5s; }
   .home-content .flex-book img {
     margin: auto; }
+  @media screen and (max-width: 1100px) {
+    .home-content .flex-book {
+      -webkit-flex: 1;
+      flex: 1;
+      min-width: 400px; } }
   @media screen and (max-width: 900px) {
     .home-content .flex-book {
       width: 100%; } }
-  .home-content .flex-book form {
-    text-align: left; }
-  .home-content .flex-book label {
+.home-content form {
+  text-align: left; }
+  .home-content form label {
     font-family: "museo",serif;
     font-weight: 300;
     color: white;
     font-size: 20px;
     line-height: 1.2em;
     margin-top: 5px; }
-  .home-content .flex-book input {
+  .home-content form input {
     border: 0;
     width: 100%;
     font-family: "museo",serif;
@@ -6831,10 +6914,10 @@ a.button, input.button {
     box-sizing: border-box;
     height: 50px;
     margin-bottom: 5px; }
-    .home-content .flex-book input.phone {
+    .home-content form input.phone {
       -webkit-flex: initial;
       flex: initial; }
-  .home-content .flex-book input[type='submit'] {
+  .home-content form input[type='submit'] {
     box-sizing: border-box;
     padding: 10px 15px;
     text-align: center;
@@ -6844,15 +6927,18 @@ a.button, input.button {
     font-size: 18px;
     margin-left: 5px;
     width: 200px;
-    font-weight: 700; }
-    .home-content .flex-book input[type='submit']:hover {
+    font-weight: 700;
+    transition: all .5s; }
+    .home-content form input[type='submit']:hover {
+      transition: all .5s;
       background-color: #ff7c00; }
 .home-content .flex-logo {
   -webkit-flex: 1;
   flex: 1;
   margin-right: 45px;
   box-sizing: border-box;
-  text-align: center; }
+  text-align: center;
+  transition: all .5s; }
   .home-content .flex-logo .text {
     padding: 10px;
     text-align: left; }
@@ -6867,9 +6953,9 @@ a.button, input.button {
           font-size: 16px; } }
   @media screen and (max-width: 900px) {
     .home-content .flex-logo {
-      min-width: 50%;
-      max-width: 50%;
-      margin: 20px 20px 20px 0; } }
+      min-width: 48%;
+      max-width: 48%;
+      margin: 20px 10px 20px 0; } }
   @media screen and (max-width: 600px) {
     .home-content .flex-logo {
       min-width: 100%;
@@ -6888,19 +6974,20 @@ a.button, input.button {
         height: auto;
         padding: 20px; }
         .home-content .flex-logo .icon img {
-          width: 75px; } }
+          height: 75px; } }
     .home-content .flex-logo .icon .content {
-      height: 190px;
+      height: 180px;
       position: relative; }
       @media screen and (max-width: 900px) {
         .home-content .flex-logo .icon .content {
-          height: auto; } }
+          height: 60px; } }
       .home-content .flex-logo .icon .content p {
         font-family: "museo",serif;
         font-weight: 300;
         color: white;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 1.2em;
+        font-weight: 300;
         position: absolute;
         top: 50%;
         -webkit-transform: translateY(-50%);
@@ -6908,6 +6995,9 @@ a.button, input.button {
         transform: translateY(-50%);
         text-align: center;
         width: 100%; }
+        @media screen and (max-width: 1100px) {
+          .home-content .flex-logo .icon .content p {
+            font-size: 30px; } }
         @media screen and (max-width: 900px) {
           .home-content .flex-logo .icon .content p {
             font-size: 24px;
@@ -6915,7 +7005,9 @@ a.button, input.button {
             top: 0;
             -webkit-transform: translateY(0);
             -ms-transform: translateY(0);
-            transform: translateY(0); } }
+            transform: translateY(0); }
+            .home-content .flex-logo .icon .content p br {
+              display: none; } }
     .home-content .flex-logo .icon.bg-blue {
       background-color: #1D2E59; }
     .home-content .flex-logo .icon.bg-light-blue {
@@ -6926,11 +7018,13 @@ a.button, input.button {
   flex: none; }
   @media screen and (max-width: 900px) {
     .home-content .flex-image {
-      width: 100%; } }
+      width: 100%;
+      text-align: center; } }
 .home-content .flex-text {
   -webkit-flex: initial;
   flex: initial;
-  margin-left: 30px; }
+  margin-left: 40px;
+  width: 100%; }
   .home-content .flex-text p {
     text-align: left;
     font-family: "museo",serif;
@@ -6938,9 +7032,15 @@ a.button, input.button {
     color: #424a51;
     font-size: 24px;
     line-height: 1.2em; }
+    @media screen and (max-width: 1100px) {
+      .home-content .flex-text p {
+        font-size: 20px; } }
   @media screen and (max-width: 900px) {
     .home-content .flex-text {
-      width: 100%;
+      width: 90%;
       -webkit-flex: none;
       flex: none;
-      margin: 20px 0; } }
+      margin: 20px auto; } }
+.home-content .box-blue {
+  padding: 40px;
+  background-color: #1D2E59; }
